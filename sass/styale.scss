@@ -173,3 +173,41 @@ footer {
 	color: #fff;
 }
 
+@media screen and (max-width: 768px){
+	main{
+		width: 100%;
+	}
+	.sec1{
+		.naslovi{
+			top: 46%;
+			left: 0;
+		}
+	}
+	.wrap1{
+		.col1{
+			display: block;
+			margin: $centerMargin;
+			padding:0;
+			font-size: .9em;
+		}
+	}
+	.wrap2{
+		.col2{
+			display: block;
+			width: 60%;
+			margin: 15px auto;
+		}
+	}
+	.wrap3{
+		padding-left: 5em;
+		img{
+			display: none;
+		}
+		form{
+			width: 100%;
+			display: block;
+			margin: $centerMargin;
+			padding: 0; 
+		}
+	}
+}
